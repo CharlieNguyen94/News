@@ -11,6 +11,7 @@
 		95623ECA26D904F400121868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95623EC926D904F400121868 /* Assets.xcassets */; };
 		95623ECD26D904F400121868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95623ECC26D904F400121868 /* Preview Assets.xcassets */; };
 		95623ED526D9051E00121868 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95623ED426D9051E00121868 /* HomeView.swift */; };
+		95623ED826D9099C00121868 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95623ED726D9099C00121868 /* NewsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95623EC926D904F400121868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95623ECC26D904F400121868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95623ED426D9051E00121868 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		95623ED726D9099C00121868 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		95623EC426D904F200121868 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				95623ED626D9098800121868 /* Model */,
 				95623ED326D9050800121868 /* Views */,
 				95623EC526D904F200121868 /* NewsApp.swift */,
 				95623EC926D904F400121868 /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				95623ED426D9051E00121868 /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		95623ED626D9098800121868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95623ED726D9099C00121868 /* NewsResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				95623ED526D9051E00121868 /* HomeView.swift in Sources */,
 				95623EC626D904F200121868 /* NewsApp.swift in Sources */,
+				95623ED826D9099C00121868 /* NewsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
