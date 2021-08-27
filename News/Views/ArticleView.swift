@@ -35,6 +35,15 @@ struct ArticleView: View {
                 PlaceholderImageView()
             }
             
+            VStack(alignment: .leading, spacing: 4) {
+                Text(article.title ?? "")
+                    .foregroundColor(.black)
+                    .font(.system(size: 18, weight: .semibold))
+                Text(article.source ?? "N/A")
+                    .foregroundColor(.gray)
+                    .font(.footnote)
+            }
+            
         }
     }
 }
@@ -51,5 +60,6 @@ struct PlaceholderImageView: View {
 struct ArticleView_Previews: PreviewProvider {
     static var previews: some View {
         ArticleView(article: Article.dummyData)
+            
     }
 }
